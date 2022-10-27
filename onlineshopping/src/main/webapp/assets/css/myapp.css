@@ -4,8 +4,48 @@
 url("./fonts/bootstrap-icons.woff?856008caa5eb66df68595e734e59580d") format("woff");
 }
 
+html{
+	height:100%;
+}
+body{
+	/*padding-top:70px;*/
+	height:100%;
+}
+
+
+
+.wrapper{
+	min-height:100%;
+	position:relative;
+		
+}
+
+.content{
+	padding-bottom:60px; /*height of the footer*/
+}
+
+.footer{
+	/*position:absolute;
+	bottom:0px;
+	height:60px;*/
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+	
+}
+
+.navbar-nav > .active > a {
+  color: white;
+  background-color: #d0d5d9;    
+}
+.nav-item > a:hover {
+  color: grey;
+}
+
 [class^="bi-"]::before,
 [class*=" bi-"]::before {
+  
   display: inline-block;
   font-family: bootstrap-icons !important;
   font-style: normal;

@@ -3010,6 +3010,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 7px;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -4034,7 +4035,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  /*padding-bottom: 0.5rem;*/
 }
 .navbar > .container,
 .navbar > .container-fluid,
