@@ -12,6 +12,13 @@
   	<spring.version>5.3.23</spring.version>
   </properties>
   <dependencies>
+  
+  <!--Link to the backend project-->
+  <dependency>
+  	  <groupId>com.ang</groupId>
+	  <artifactId>shoppingbackend</artifactId>
+	  <version>0.0.1-SNAPSHOT</version>
+  </dependency>
   <!-- JAVA EE API -->
 	<dependency>
 	    <groupId>javax</groupId>
